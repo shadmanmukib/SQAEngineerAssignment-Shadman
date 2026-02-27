@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="UI Tests">
+        <classes>
+            <class name="UI_tests.FrontendUnitTest"/>
+            <class name="UI_tests.FrontendIntegrationTest"/>
+        </classes>
+    </test>
+
+    <test name="API Tests">
+        <classes>
+            <class name="API_tests.ApiIntegrationTest"/>
+            <class name="API_tests.SecurityTest"/>
+        </classes>
+    </test>
+</suite>

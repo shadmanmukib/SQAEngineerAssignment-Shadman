@@ -2,7 +2,9 @@
 This repository contains the automated test suite and quality assurance documentation for the AcmeAI Legal Assistance Platform. The suite validates a Next.js/React frontend and a FastAPI backend, focusing on legal document processing and AI-driven query responses.
 
 ## 🛠️ Setup and Installation
+
 **1. Prerequisites**
+
 **Java JDK 8+:** Required for running the TestNG suite.
 
 
@@ -12,11 +14,8 @@ This repository contains the automated test suite and quality assurance document
 **ChromeDriver:** Ensure the version matches your local Google Chrome browser.
 
 
-**Environment: **
-
-
+Environment:
 **Backend:** Ensure the API is running at http://localhost:8000 
-
 
 **Frontend:** Ensure the UI is accessible at http://localhost:3001.
 
@@ -24,8 +23,8 @@ This repository contains the automated test suite and quality assurance document
 **2. Execution**
 To run the entire test suite via the command line, use:
 
-**Bash
-mvn clean test**
+Bash
+mvn clean test
 
 
 ## Test Coverage Summary

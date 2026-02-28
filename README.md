@@ -1,4 +1,4 @@
-Project Overview: AcmeAI QA Automation for validating the Legal Assistance Platform
+## Project Overview: AcmeAI QA Automation for validating the Legal Assistance Platform
 This repository contains the automated test suite and quality assurance documentation for the AcmeAI Legal Assistance Platform. The suite validates a Next.js/React frontend and a FastAPI backend, focusing on legal document processing and AI-driven query responses.
 +3
 
